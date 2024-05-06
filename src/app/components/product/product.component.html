@@ -1,0 +1,9 @@
+<ng-container *ngIf="product">
+    <img [src] ="product.imagen" alt="" width="300px" height="auto">
+    <h2>{{product.nombre}}</h2>
+    <p class="precio">$ {{product.precio}}</p> 
+    <p>{{product.colores}}</p>
+</ng-container>
+<ng-container *ngIf="!product">
+    Producto no encontrado
+</ng-container>
