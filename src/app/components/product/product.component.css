@@ -1,3 +1,7 @@
 .precio{
     font-weight: bold;
 }
+.imagen{
+    width: 100%;
+    height: auto;
+}

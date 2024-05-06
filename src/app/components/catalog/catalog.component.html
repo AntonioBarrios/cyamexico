@@ -1,6 +1,6 @@
 <ng-container *ngIf="catalog.typeCatalog=='Hombres'">
-    <img [src] ="catalog.imagen" alt="" width="1460" height="auto">
-    <h1>{{catalog.typeCatalog}}</h1>
+    <img class="imagen" [src] ="catalog.imagen" alt="">
+    <h1 class="titulo">{{catalog.typeCatalog}}</h1>
 </ng-container>
 <ng-container *ngIf="!catalog">
     Catalogo no encontrado
